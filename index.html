@@ -10,183 +10,208 @@
 
   <title>FancyRemote</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">FancyRemote</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
-        <i class="fas fa-bars" style="color: #234099"></i>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Products</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#page-bottom">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">FancyRemote allows you to control your Samsung Smart TV from your Apple iPhone, iPad, or iPod Touch!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Now for Free!</a>
-          </div>
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/SVG/WebsiteLogo.svg" alt="">
+
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0">FancyRemote</h1>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/screenshot.png" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="divider-custom-line"></div>
       </div>
+
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">Free yourself from a physical remote</p>
+
     </div>
   </header>
 
-  <section class="download bg-primary text-center" id="download">
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Products</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <div class="col-md-6 col-lg-6">
+          <div class="portfolio-item mx-auto" data-toggle="modal">
+            <a href="https://fancyremoteapp.github.io/fancyremotesamsung/" target="_blank">
+              <img class="img-fluid" src="img/portfolio/samsung.png" alt="">
+            </a>
+            <div class="overlay">
+                <a href="https://fancyremoteapp.github.io/fancyremotesamsung/" target="_blank">
+                    FancyRemote for Samsung
+                </a>
+            </div>
+          </div>
+        </div>    
+          
+        <div class="col-md-6 col-lg-6">
+          <div class="portfolio-item mx-auto" data-toggle="modal">
+            <a href="https://fancyremoteapp.github.io/fancyremoteroku/" target="_blank">
+              <img class="img-fluid" src="img/portfolio/roku.png" alt="">
+            </a>
+            <div class="overlay">
+                <a href="https://fancyremoteapp.github.io/fancyremoteroku/" target="_blank">
+                    FancyRemote for Roku
+                </a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">FancyRemote takes pride in creating easy to use remote apps for your TV or streaming device. We create all our apps with the end user in mind.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">FancyRemote's unique combination of ease of use and allowing users to choose a remote theme that best matches their personality makes it the best remote app for all!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading" style="color: #fff">Discover what all the buzz is about!</h2>
-          <p style="color: #fff">Our app is available on your favorite iOS mobile device! Download now to get started!</p>
-          <div class="badges">
-            <a class="badge-link" href="https://apps.apple.com/app/fancyremote-for-samsung-tv/id1479494269#?platform=iphone"><img src="img/app-store-badge.svg" alt=""></a>
-          </div>
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Products</h4>
+          <p class="lead mb-0">
+            <a href="https://fancyremoteapp.github.io/fancyremotesamsung/" target="_blank">FancyRemote for Samsung</a></p>
+          <p class="lead mb-0">
+            <a href="https://fancyremoteapp.github.io/fancyremoteroku/" target="_blank">FancyRemote for Roku</a></p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features" id="features">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>Unlike any other remote.</h2>
-        <p class="text-muted">Check out what you can do with this app!</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/screenshot.png" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
+          
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Contact Us</h4>
+          <p class="lead mb-0">
+            <a href="mailto:fancyremoteapp@gmail.com" style="color:#fff">fancyremoteapp@gmail.com</a>
+          </p>
         </div>
-        <div class="col-lg-8 my-auto">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Full Remote</h3>
-                  <p class="text-muted">Get all the great functionality of your remote!</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-layers text-primary"></i>
-                  <h3>Quick App Bar</h3>
-                  <p class="text-muted">Easily switch between different apps on your TV!</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">Remote functionality is free to use!</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Go Pro</h3>
-                  <p class="text-muted">Get full App bar functionality and more!</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
+<!-- Footer Social Icons 
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact bg-primary" id="contact">
-    <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        to hear from you!</h2>
-        <p style="color:#fff">Email us at <u><a href="mailto:fancyremoteapp@gmail.com" style="color:#fff">fancyremoteapp@gmail.com</a></u></p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; Brandon Ginoza 2019. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="privacypolicy.html">Privacy</a>
-        </li>
-
-        <li class="list-inline-item">
-          <a href="termsofuse.html">Terms of Use</a>
-        </li>
-<!--
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
 -->
-      </ul>
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">Legal</h4>
+          <p class="lead mb-0">
+            <a href="privacypolicy.html" target="_blank">Privacy Policy</a></p>
+          <p class="lead mb-0">
+            <a href="termsofuse.html" target="_blank">Terms of Use</a></p>
+        </div>
+
+      </div>
     </div>
   </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white" id="page-bottom">
+    <div class="container">
+      <small>Copyright &copy; Brandon Ginoza 2020</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -195,8 +220,12 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
   <!-- Custom scripts for this template -->
-  <script src="js/new-age.min.js"></script>
+  <script src="js/freelancer.min.js"></script>
 
 </body>
 
